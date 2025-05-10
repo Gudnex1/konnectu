@@ -104,10 +104,30 @@
     padding-top: 10px;
     padding-left: 20px;
   }
+  .ccnt {
+    border: 1px solid var(--bgclr);
+    padding: 10px;
+  }
   div.cnt1 {
     display: flex;
     padding: 10px;
     /* height: 400px; */
+  }
+  #aside ul li.dropdown ul.sub_menu li:hover {
+    background-color: var(--cntclr);
+  }
+  #aside ul li.dropdown a {
+    color: var(--bgclr);
+  }
+  #aside ul li.dropdown a:hover {
+    background-color: var(--bgclr);
+    color: var(--cntclr);
+  }
+  #aside ul li.dropdown a:hover svg {
+    fill: var(--cntclr);
+  }
+  #aside ul li.dropdown a svg {
+    fill: var(--bgclr); 
   }
 }
 @layer search {
